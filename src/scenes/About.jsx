@@ -1,6 +1,9 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import {BsDownload} from 'react-icons/bs'
+import resume from "../assets/softwareresume.pdf";
+
+
 
 const About = () => {
     return (
@@ -42,13 +45,13 @@ const About = () => {
                  <h2 className="font-black text-3xl">HELLO <span className="text-red">!</span></h2>
                  <p className="text-xl py-2">Here's who i am & what i do</p>
                  {/* button resume */}
-               <button 
+                <a href={resume} download='resume'> <button 
               className=" w-[150px] py-2 px-4  flex justify-center gap-2 items-center rounded-md outline-none border-yellow p-2 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:border-0
                hover:text-white transition duration-500 download"
               type="submit"
             >
             <BsDownload className=""/><span className="text-indigo-900 hover:text-white">RESUME</span>
-            </button> 
+            </button> </a>
 
             <p className="md:mx-20 mt-10 first-letter:text-purple-700 text-xl">My name is Ibrahima Diallo a self-taught passionate Software developer from New York, I've work on countless web projects specially on the  front-end. I have been passionated to tech since my early age even though my academic background is on accounting.
             With the magic of tech i can help design, test and launch different ideas. I like exploring different technologies in order to expand efficiently my tech skills.

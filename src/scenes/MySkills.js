@@ -24,7 +24,7 @@ const MySkills = () =>{
                     </p>
                     <LineGradient width="w-1/3"/>
                       <p className="mt-10 mb-7">
-                        I know many frameworks and libraries however i am more focus on mern stack such as Reactjs Mongodb, express and Nodejs.
+                        I am familiar with many frameworks and libraries however i am more focus on mern stack such as Reactjs Mongodb, express and Nodejs.
                     
 
                       </p>
