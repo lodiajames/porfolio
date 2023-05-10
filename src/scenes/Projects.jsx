@@ -74,7 +74,7 @@ const Projects = ()=>{
                         BEAUTIFUL USER INTERFACES
                     </div>
 
-                   <a href="https://clone-realtor.vercel.app/" target="_blank" rel="noreferrer" > <Project title="Project 1" text="beautiful 1"/></a>
+                   <a href="https://clone-realtor.vercel.app/" target="_blank" rel="noreferrer" > <Project title="Project 1" text="A real state application designed to provide users with a variety of features related to buying, selling or renting properties. "/></a>
                     <a href="https://prism-4-qi8gj4797-lodiajames.vercel.app/" target="_blank" rel="noreferrer" ><Project title="Project 2" text="Prism-4 is a professional looking website created with ReactJs. Designed with better users experiences and included information about a company, its products or services " /></a>
 
                    {/* row 2 */}
